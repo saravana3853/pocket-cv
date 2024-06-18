@@ -1,15 +1,14 @@
 # pocket-cv
 A full stack repo in MERN stack
 
-
-Building pocket-cv backend
+# Building pocket-cv backend
 
 sudo docker build -f Dockerfile.dev -t pocket-cv-be:v1 . 
 
 sudo docker run -p 5002:5002 crawler:1.0.0 
 
 
-Building pocket-cv frontend
+# Building pocket-cv frontend
 
 sudo docker build -f Dockerfile.dev -t pocket-cv-ui:v1 .
 
